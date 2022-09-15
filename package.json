@@ -2,13 +2,13 @@
   "name": "today-util",
   "version": "0.1.2",
   "description": "",
-  "main": "dist/today-uitl.umd.js",
-  "module": "dist/today-uitl.mjs",
+  "main": "dist/today-util.umd.js",
+  "module": "dist/today-util.mjs",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/today-uitl.mjs",
-      "require": "./dist/today-uitl.umd.js"
+      "import": "./dist/today-util.mjs",
+      "require": "./dist/today-util.umd.js"
     },
     "./package.json": "./package.json",
     "./src/index.ts": "./src/index.ts"
