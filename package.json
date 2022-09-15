@@ -1,6 +1,6 @@
 {
   "name": "today-util",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "today util",
   "main": "dist/today-util.umd.js",
   "module": "dist/today-util.mjs",
