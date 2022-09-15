@@ -1,10 +1,10 @@
 {
   "name": "today-util",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "main": "dist/today-uitl.umd.js",
   "module": "dist/today-uitl.mjs",
-  "types": "index.d.ts",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "import": "./dist/today-uitl.mjs",
@@ -20,7 +20,7 @@
     "index.d.ts"
   ],
   "scripts": {
-    "build": "tsc && vite build"
+    "build": " vite build && tsc "
   },
   "repository": {
     "type": "git",
