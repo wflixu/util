@@ -2,6 +2,9 @@ import { resolve } from "path";
 import { defineConfig } from "vite";
 
 export default defineConfig({
+  test: {
+    teardownTimeout: 5000,
+  },
   build: {
     target: "esnext",
 
@@ -12,7 +15,7 @@ export default defineConfig({
       fileName: "today-util",
     },
     rollupOptions: {
-      external: ["jsdom"],
+      // external: ["jsdom"],
     },
   },
 });
